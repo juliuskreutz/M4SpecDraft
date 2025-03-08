@@ -4,7 +4,7 @@
 
 ![Database Schema](./schema.svg)
 
-start and end are stored in the associated timezone
+start and end are stored in the users timezone
 
 ## Api Specifications
 
@@ -29,6 +29,7 @@ role: Admin
 > | name     | string | ✓        |
 > | username | string | ✓        |
 > | password | string | ✓        |
+> | tz       | text   | ✓        |
 
 #### Responses
 
@@ -60,6 +61,7 @@ user: Own user
 > | name     | string |          |
 > | username | string |          |
 > | password | string |          |
+> | tz       | text   |          |
 
 #### Responses
 
@@ -135,7 +137,6 @@ user: Own user
 
 > | name  | type    | required |
 > | ----- | ------- | -------- |
-> | tz    | text    | ✓        |
 > | day   | integer | ✓        |
 > | start | time    | ✓        |
 > | end   | time    | ✓        |
@@ -238,7 +239,6 @@ user: Own user
 
 > | name  | type    | required |
 > | ----- | ------- | -------- |
-> | tz    | text    |          |
 > | day   | integer |          |
 > | start | time    |          |
 > | end   | time    |          |
