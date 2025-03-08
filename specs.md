@@ -4,6 +4,8 @@
 
 ![Database Schema](./schema.svg)
 
+start and end are stored in the associated timezone
+
 ## Api Specifications
 
 ### Users
@@ -133,6 +135,7 @@ user: Own user
 
 > | name  | type    | required |
 > | ----- | ------- | -------- |
+> | tz    | text    | ✓        |
 > | day   | integer | ✓        |
 > | start | time    | ✓        |
 > | end   | time    | ✓        |
@@ -235,6 +238,7 @@ user: Own user
 
 > | name  | type    | required |
 > | ----- | ------- | -------- |
+> | tz    | text    |          |
 > | day   | integer |          |
 > | start | time    |          |
 > | end   | time    |          |
@@ -296,3 +300,5 @@ Get all timeframes
 > | 200  | [Timeframe] |
 
 </details>
+
+## Notes
