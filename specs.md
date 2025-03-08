@@ -301,4 +301,12 @@ Get all timeframes
 
 </details>
 
-## Notes
+## Proposed tooling
+
+Use [chrono-tz](https://crates.io/crates/chrono-tz) for timezone calculations.
+
+Use [actix-web](https://crates.io/crates/actix-web) for api backend.\
+Use [actix-session](https://crates.io/crates/actix-session) for session management.
+
+Use [postgres](https://www.postgresql.org/) as the database.\
+Use [sqlx](https://crates.io/crates/sqlx) for database bindings.
