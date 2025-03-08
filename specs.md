@@ -131,10 +131,11 @@ user: Own user
 
 #### Body
 
-> | name  | type | required |
-> | ----- | ---- | -------- |
-> | start | time | ✓        |
-> | end   | time | ✓        |
+> | name  | type    | required |
+> | ----- | ------- | -------- |
+> | day   | integer | ✓        |
+> | start | time    | ✓        |
+> | end   | time    | ✓        |
 
 #### Responses
 
@@ -232,10 +233,11 @@ user: Own user
 
 #### Body
 
-> | name  | type | required |
-> | ----- | ---- | -------- |
-> | start | time |          |
-> | end   | time |          |
+> | name  | type    | required |
+> | ----- | ------- | -------- |
+> | day   | integer |          |
+> | start | time    |          |
+> | end   | time    |          |
 
 #### Responses
 
