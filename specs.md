@@ -301,7 +301,7 @@ Get all timeframes
 
 </details>
 
-## Proposed tooling
+## Proposed Tooling
 
 Use [chrono-tz](https://crates.io/crates/chrono-tz) for timezone calculations.
 
@@ -311,7 +311,7 @@ Use [actix-session](https://crates.io/crates/actix-session) for session manageme
 Use [postgres](https://www.postgresql.org/) as the database.\
 Use [sqlx](https://crates.io/crates/sqlx) for database bindings.
 
-## Example code
+## Example Code
 
 ```rs
 use chrono::Datelike as _;
